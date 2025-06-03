@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+body {
+  @apply font-poppins;
+} */
+
+
+.wrapper{
+  padding: 0px 30px ;
+}
+
