@@ -14,6 +14,7 @@ export function Delivery() {
         </Link>
     </div>
     <div className=' grid grid-cols-3  place-content-center gap-24 my-40 max-[640px]:grid-cols-2 max-[480px]:grid-cols-1'>
+        
         {delivery.map((item,index)=> (
             <div key={index} className=' flex flex-col items-center text-center'>
                 <div className=' mb-3'>
